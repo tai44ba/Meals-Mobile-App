@@ -3,7 +3,7 @@ import { View, Text, Image, StyleSheet, ScrollView, Button } from "react-native"
 import IconButton from "../components/IconButton";
 import MealDetail from "../components/MealDetail";
 import List from "../components/mealDetails/List";
-import Subtitle from "../components/mealDetails/subTitle";
+import Subtitle from "../components/mealDetails/Subtitle";
 import { MEALS } from "../data/dummy-data";
 
 const MealDetailScreen = ({ route , navigation}) => {
